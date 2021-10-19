@@ -258,6 +258,7 @@ let distributions =
     , AoS )
   ; (full_lpdf, "student_t", [DVReal; DVReal; DVReal; DVReal], AoS)
   ; (full_lpdf, "std_normal", [DVReal], AoS)
+  ; (full_lpdf, "new_normal", [DVReal; DVReal; DVReal], AoS)
   ; (full_lpdf, "uniform", [DVReal; DVReal; DVReal], AoS)
   ; ([Lpdf; Rng], "von_mises", [DVReal; DVReal; DVReal], AoS)
   ; (full_lpdf, "weibull", [DVReal; DVReal; DVReal], AoS)
