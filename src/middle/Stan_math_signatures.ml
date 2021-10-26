@@ -240,6 +240,7 @@ let distributions =
   ; ([Lpdf], "multi_normal", [DVectors; DVectors; DMatrix], AoS)
   ; ([Lpdf], "multi_normal_cholesky", [DVectors; DVectors; DMatrix], AoS)
   ; ([Lpdf], "matrix_normal_cholesky", [DMatrix; DMatrix; DMatrix], AoS)
+  ; ([Lpdf], "kalman_smoother", [DMatrix; DMatrix; DMatrix; DMatrix; DMatrix], AoS)
   ; ([Lpdf], "multi_normal_prec", [DVectors; DVectors; DMatrix], AoS)
   ; ([Lpdf], "multi_student_t", [DVectors; DReal; DVectors; DMatrix], AoS)
   ; (full_lpmf, "neg_binomial", [DVInt; DVReal; DVReal], AoS)
